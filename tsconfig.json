@@ -1,0 +1,17 @@
+{
+  "files": [],
+  "references": [
+    {
+      "path": "./src/api"
+    },
+    {
+      "path": "./src/common"
+    },
+    {
+      "path": "./src/core"
+    },
+    {
+      "path": "./src/infrastructure"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "nestjs-clean-architecture",
+  "version": "1.0.0",
+  "description": "Clean architecture templates using Nestjs",
+  "scripts": {
+    "watch": "tsc -b --watch",
+    "build": "tsc -b"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pikadun/nestjs-clean-architecture.git"
+  },
+  "author": "Dunn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pikadun/nestjs-clean-architecture/issues"
+  },
+  "homepage": "https://github.com/pikadun/nestjs-clean-architecture#readme",
+  "dependencies": {
+    "@nestjs/common": "^9.3.9",
+    "@nestjs/core": "^9.3.9",
+    "@nestjs/platform-express": "^9.3.9",
+    "@sequelize/core": "^7.0.0-alpha.24",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.0",
+    "mysql2": "^3.2.0",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^7.8.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.55.0",
+    "@typescript-eslint/parser": "^5.55.0",
+    "eslint": "^8.36.0",
+    "typescript": "^4.9.5"
+  }
+}

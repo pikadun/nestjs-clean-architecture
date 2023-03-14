@@ -1,0 +1,6 @@
+{
+  "extends": "../../eng/tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "../../app/common/"
+  }
+}

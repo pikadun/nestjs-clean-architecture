@@ -1,0 +1,11 @@
+{
+  "extends": "../../eng/tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "../../app/core/"
+  },
+  "references": [
+    {
+      "path": "../common"
+    }
+  ]
+}
